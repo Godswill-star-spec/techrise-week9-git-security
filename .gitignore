@@ -1,0 +1,19 @@
+# Environment and credentials — NEVER commit these
+.env
+*.env
+.env.local
+.env.production
+
+# Old insecure config — replace with config_secure.py
+config.py
+database.php
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Common IDE and OS files
+.DS_Store
+*.swp
+*.swo
